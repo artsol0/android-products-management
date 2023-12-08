@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Товары</string>
+    <string name="add">Добавить</string>
+    <string name="product_number">Номер товара</string>
+    <string name="product_name">Название товара</string>
+    <string name="add_photo_description">Добавить фото к новому товару</string>
+    <string name="add_description">Добавить новий товар</string>
+    <string name="price">Цена товара</string>
+    <string name="add_product">Добавить товар</string>
+    <string name="success_product_add">Добавлено</string>
+    <string name="error_occurred">Ошибка</string>
+    <string name="product_photo">Фото товара</string>
+    <string name="product_valute">грн.</string>
+    <string name="no_data">Товар не имеет данных</string>
+    <string name="deleted">Удалено</string>
+    <string name="delete_question">Ви уверены что хотите удалить</string>
+    <string name="answer_yes">Да</string>
+    <string name="answer_no">Нет</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="update">Обновить</string>
+    <string name="updated">Обновлено</string>
+    <string name="search_hint">Название или номер</string>
+    <string name="not_found">не найдено</string>
+    <string name="add_size">Добавить размер</string>
+    <string name="size">Размер</string>
+    <string name="amount">Количество</string>
+    <string name="is_mandatory">обязательно</string>
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    #Activity names
+    <string name="app_name">Товари</string>
+    <string name="add_product">Додати товар</string>
+
+    #Add product activity actions and descriptions
+    <string name="add">Додати</string>
+    <string name="update">Оновити</string>
+    <string name="product_number">Номер товару</string>
+    <string name="product_name">Назва товару</string>
+    <string name="add_photo_description">Додати фото до нового товару</string>
+    <string name="add_description">Додати новий товар</string>
+    <string name="price">Ціна товару</string>
+
+    #Toast
+    <string name="success_product_add">Додано</string>
+    <string name="error_occurred">Помилка</string>
+    <string name="updated">Оновлено</string>
+    <string name="deleted">Видалено</string>
+
+    #Product row
+    <string name="product_photo">Фото товару</string>
+    <string name="product_valute">грн.</string>
+
+    #Product activity
+    <string name="no_data">Товар не має даних</string>
+
+    #Confirm dialog
+    <string name="delete_question">Ви впевнені що хочете видалити</string>
+    <string name="answer_yes">Так</string>
+    <string name="answer_no">Ні</string>
+
+    #Icons
+    <string name="delete">Видалити</string>
+    <string name="edit">Редагувати</string>
+
+    <string name="search_hint">Назва або номер</string>
+    <string name="not_found">не знайдено</string>
+
+    <string name="add_size">Додати розмір</string>
+    <string name="size">Розмір</string>
+    <string name="amount">Кількість</string>
+
+    <string name="is_mandatory">обов\'язково</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Goods</string>
+    <string name="add">Add</string>
+    <string name="product_number">Product number</string>
+    <string name="product_name">Product name</string>
+    <string name="add_photo_description">Add photo for new product</string>
+    <string name="add_description">Add new product</string>
+    <string name="price">Product price</string>
+    <string name="add_product">Add product</string>
+    <string name="success_product_add">Added</string>
+    <string name="error_occurred">Error</string>
+    <string name="product_photo">Product photo</string>
+    <string name="product_valute">$</string>
+    <string name="no_data">Product have no data</string>
+    <string name="deleted">Deleted</string>
+    <string name="delete_question">Are you shure that you want to delete</string>
+    <string name="answer_yes">Yes</string>
+    <string name="answer_no">No</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="updated">Updated</string>
+    <string name="search_hint">Title or number</string>
+    <string name="not_found">not found</string>
+    <string name="add_size">Add size</string>
+    <string name="size">Size</string>
+    <string name="amount">Amount</string>
+    <string name="is_mandatory">is mandatory</string>
+</resources>
