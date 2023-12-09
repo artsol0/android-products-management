@@ -72,19 +72,20 @@ public class AddActivity extends AppCompatActivity {
 
     private byte[] ImageViveToByte(ImageView image) {
         Bitmap bitmap = null;
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
 
         if (image.getDrawable() instanceof BitmapDrawable) {
             bitmap = ((BitmapDrawable)image.getDrawable()).getBitmap();
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 80, stream);
         } else {
             Drawable drawable = ContextCompat.getDrawable(AddActivity.this, R.drawable.baseline_add_a_photo_24);
             bitmap = Bitmap.createBitmap(drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight(), Bitmap.Config.ARGB_8888);
             Canvas canvas = new Canvas(bitmap);
             drawable.setBounds(0, 0, canvas.getWidth(), canvas.getHeight());
             drawable.draw(canvas);
+            bitmap.compress(Bitmap.CompressFormat.PNG, 80, stream);
         }
 
-        ByteArrayOutputStream stream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.PNG, 80, stream);
         return stream.toByteArray();
     }
 
